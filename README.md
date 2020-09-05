@@ -30,5 +30,5 @@ If you have any questions or requests feel free to message me!
 - YouTube
 - Major Leage Hacking
 - Projects
-  - [https://devpost.com/software/vid3o/ VID3O]
-  - [https://devpost.com/software/the-peaceful-space The Peaceful Space]
+  - [VID3O](https://devpost.com/software/vid3o/)
+  - [The Peaceful Space](https://devpost.com/software/the-peaceful-space)
