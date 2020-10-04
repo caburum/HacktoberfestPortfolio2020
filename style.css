@@ -1,3 +1,13 @@
 .hidden {
-    opacity: 0;
+  opacity: 0;
+}
+.container {
+  font-family: Sofia;
+}
+h1 {
+  background-color: rgb(170, 92, 243);
+}
+#EasterEggs {
+  height: 200px;
+  width: 200px;
 }
