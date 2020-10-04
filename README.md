@@ -23,6 +23,13 @@ If you have any questions or requests feel free to message me!
 # Don't forget to Star! ⭐️
 ## I will do my best to merge as much as possible from everyone. However, time is limited and the merge conflicts can be horrible ❤️
 
+## Contributors
+<a href="https://github.com/CCreativeCND/HacktoberfestPortfolio2020/graphs/contributors">
+  <img src="https://contributors-img.web.app/image?repo=CCreativeCND/HacktoberfestPortfolio2020" />
+</a>
+
+Made with [contributors-img](https://contributors-img.web.app).
+
 ## About Me
 - My name is Calum
 - Student dev
