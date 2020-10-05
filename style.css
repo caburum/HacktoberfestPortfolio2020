@@ -40,6 +40,20 @@ main {
   width: 100%;
 }
 
+.dark-mode-screen{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100vw;
+  height: 100vh;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  -webkit-transition: .2s;
+  transition: .2s;
+  pointer-events: none;
+}
+
 .dark-mode-toggle{
   display: flex;
   position: relative;
@@ -83,5 +97,9 @@ main {
   -webkit-transform: translateX(30px);
   -ms-transform: translateX(30px);
   transform: translateX(30px);
+}
+
+.dark-mode input:checked ~ .dark-mode-screen{
+  opacity: 1;
 }
 
