@@ -6,7 +6,6 @@ var myAudio = new Audio('./audio/Konami Intro - Metal Gear Solid ᴴᴰ.mp3');
 const detectCode = (code) => {
   let input = ''
   let codeToDetect = code.join('')
-  console.log(codeToDetect)
   // detect key events
   document.addEventListener('keydown', e => {
 
