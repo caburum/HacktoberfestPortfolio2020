@@ -1,4 +1,4 @@
-$(function() {
+/*$(function() {
     $("#shrekTrigger").mouseover(() => {
         $("#shrek").animate({
             opacity: 1
@@ -9,6 +9,16 @@ $(function() {
         $("#shrek").animate({
             opacity: 0
         });
+    });
+});*/
+
+$(function() {
+    $("#shrekTrigger").mouseover(() => {
+        $(".object-cover").attr("src", "shrek.jpg")
+    });
+
+    $("#shrekTrigger").mouseout(() => {
+        $(".object-cover").attr("src", "profile.png")
     });
 });
 
