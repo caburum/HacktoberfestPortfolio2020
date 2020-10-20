@@ -14,7 +14,14 @@ main {
 html {
 	scroll-behavior: smooth;
 }
-
+.caluma{
+  animation: move 2s infinite linear;
+  animation-direction: alternate;
+}
+@keyframes move{
+  from{padding-left:25px;}
+  to {padding-right:40px;}
+}
 .header-container,
 .footer-container {
   display: flex;
@@ -105,4 +112,3 @@ html {
 .dark-mode input:checked ~ .dark-mode-screen{
   opacity: 1;
 }
-
