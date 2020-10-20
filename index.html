@@ -7,6 +7,7 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
     <link rel="icon" href="favicon.ico" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4/css/tachyons.min.css">
     <link
 			rel="stylesheet"
 			href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/tailwind.min.css"
@@ -16,6 +17,8 @@
 			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
 		/>
     <link rel="stylesheet" href="style.css" />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     
   </head>
     <body class="bg-gray-200">
@@ -28,12 +31,13 @@
           <div
             class="w-full relative flex justify-between md:w-auto px-4 md:static"
           >
-            <a
+            <div class="caluma"><a
               class="text-2xl text-center w-full font-bold leading-relaxed inline-block py-2 whitespace-no-wrap uppercase text-white"
               href="#pablo"
             >
               Calum
-            </a>
+            </a></div>
+
           </div>
           <div class="md:flex flex-grow items-center mt-5 md:mt-0">
             <ul
@@ -89,21 +93,21 @@
   
       <section class="py-10" id="skills">
         <div class="container text-center mx-auto">
-          <h2 class="text-4xl font-bold">Skills</h2>
+          <h2 class=" skills_area text-4xl font-bold">Skills</h2>
           <ul class="flex flex-wrap w-full justify-between">
-            <li class="p-3 text-5xl md:text-6xl text-red-500">
+            <li class="p-3 grow-large  text-5xl md:text-6xl text-red-500">
               <i class="fab fa-html5"></i>
             </li>
-            <li class="p-3 text-5xl md:text-6xl text-blue-500">
+            <li class="p-3 grow-large text-5xl md:text-6xl text-blue-500">
               <i class="fab fa-css3"></i>
             </li>
-            <li class="p-3 text-5xl md:text-6xl text-yellow-500">
+            <li class="p-3 grow-large  text-5xl md:text-6xl text-yellow-500  " >
               <i class="fab fa-js"></i>
             </li>
-            <li class="p-3 text-5xl md:text-6xl text-green-300">
+            <li class="p-3 grow-large  text-5xl md:text-6xl text-green-300">
               <i class="fab fa-node"></i>
             </li>
-            <li class="p-3 text-5xl md:text-6xl text-blue-500">
+            <li class="p-3 grow-large  text-5xl md:text-6xl text-blue-500">
               <i class="fab fa-python"></i>
             </li>
           </ul>
@@ -197,7 +201,7 @@
               data-tags="css,node"
             >
               <img
-                class="w-full h-full object-cover"
+                class="w-full h-full object-cover "
                 src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1386&q=80"
                 alt="project"
               />
@@ -299,6 +303,26 @@
   
       <script src="script.js"></script>
       <script src="konamiCode.js"></script>
+    
+        <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+        
+        function plusDivs(n) {
+          showDivs(slideIndex += n);
+        }
+        
+        function showDivs(n) {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          if (n > x.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = x.length}
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          x[slideIndex-1].style.display = "block";  
+        }
+        </script>
     </body>
      <!-- <main>
         <div class="main-container">
