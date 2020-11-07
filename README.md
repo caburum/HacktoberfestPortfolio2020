@@ -1,3 +1,5 @@
+# This has been archived since Hacktoberfest 2020 is over
+This was a really fun project, but now it is over. Check back for a new project next year!
 ![Hacktoberfest 2020](Hacktoberfest2020.png)
 
 ## About This
